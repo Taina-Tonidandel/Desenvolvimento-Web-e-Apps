@@ -1,0 +1,31 @@
+body {
+    background-color: #fff;
+    }
+    h3 {
+        color: darkgreen;
+    }
+
+    /* Classes*/
+    .paragrafo{
+        background-color: #000;
+        color: aqua;
+        padding: 5px;
+    }
+    /* ID*/
+
+    #hea
+    /* hex*/
+    .hex {
+        color: #55a398;
+    }
+
+    .hex{
+
+    }
+    .rgb {
+        color: rgb(150, 59, 502);
+    }
+
+    .rgb-mix{
+        color: rgb(99,  , blue);    
+    }
