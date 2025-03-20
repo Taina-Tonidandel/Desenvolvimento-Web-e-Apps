@@ -1,26 +1,49 @@
 .sticky{
-    position: sticky;
-    height: 50px;
-    background-color: blue;
+    position: fixed;
+    width: 99%;
+    height: 60px;
+    background-color: rosybrown;
     padding: 1px 1px 10px 1px;
-}
-.bg-center{
-    width: 40px;
-    height: 40px;
-    background-image: url("../Trabalhos/img/borboleta.jpg");
-    background-position: center;
-    background-size: cover;
-    margin: 10px;
+       
 }
 
-.link1,
-.link2,
-.link3,
-.link4{
+.bg-center{
     width: 50px;
     height: 50px;
-    background-color: #000;
     margin: 10px;
     display: inline-block;
-    color: #1c8c04;
+    position: absolute;
+}
+
+.link{
+    height: 20px;
+    top: 10px;
+    background-color: antiquewhite;
+    color: black;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    padding: 6px;
+    box-sizing: content-box;
+    text-decoration: dashed;
+    position: relative;
+    margin: 6px;
+    left: 75%;
+}
+
+.rodape{
+    text-align: center;
+    font-size: 8px;
+    color: #000;
+}
+.imagens-center{
+    display: inline-block;
+    width: 100%;
+
+    
+}
+
+.img {
+    width: 30%;
+    height: 250px;
 }
